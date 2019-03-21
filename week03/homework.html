@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Timetable</title>
+  <style> table, tr, th, td {
+    border: 1px solid black;    border-collapse: collapse;
+  }
+    th {
+      width: 7em;
+    }
+    td {
+      height: 3em;
+    }
+    .color1{
+      background-color: #a6808c;
+    }
+    .color2 {
+      background-color: #565264;
+    }
+    .color3 {
+      background-color: antiquewhite;
+    }
+    .color4 {
+      background-color: coral;
+    }
+    .color5 {
+      background-color: khaki;
+    }
+    .color6 {
+      background-color: lightseagreen;
+    }
+  </style> <!--    border-collapse: collapse  단선으로, 반대는 separate  -->
+</head>
+<body>
+<table>
+  <tr>
+    <th class="color1">월</th>
+    <th class="color2">화</th>
+    <th class="color3">수</th>
+    <th class="color4">목</th>
+    <th class="color5">금</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td rowspan="2" class="color1">인터넷프로그래밍</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td rowspan="2" class="color2">MOS(워드, 액세스)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td rowspan="2" class="color3">캡스톤디자인</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td class="color4">디지털논리회로</td>
+    <td class="color3">캡스톤디자인</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="color4">디지털논리회로</td>
+    <td></td>
+    <td rowspan="2" class="color5">시스템분석및설계</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="color6">운영체제</td>
+    <td></td>
+    <td rowspan="2" class="color5">시스템분석및설계</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td rowspan="2" class="color1">인터넷프로그래밍</td>
+  </tr>
+  <tr>
+    <td class="color6">운영체제</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</body>
+</html>
