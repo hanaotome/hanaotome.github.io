@@ -25,5 +25,5 @@ function getURL(){
 function car(){
     let c = getURL();
     console.log(c)
-    window.location.replace(c);
+    location.href = c
 }
